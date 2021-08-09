@@ -20,19 +20,14 @@ class ReadFile:
 ────╚╝
 	""")
 
-        print("To stop the program, move the curser to the upper left corner of the screen.")
+        print(
+            "To stop the program, move the curser to the upper left corner of the screen.")
         print("")
 
-        print("Starting in 5...")
-        time.sleep(1)
-        print("Starting in 4...")
-        time.sleep(1)
-        print("Starting in 3...")
-        time.sleep(1)
-        print("Starting in 2...")
-        time.sleep(1)
-        print("Starting in 1...")
-        time.sleep(1)
+        for i in range(1, 6):
+            print(f"Starting in {i}...")
+            time.sleep(1)
+
         print("Boom!")
 
         for line in f:
@@ -56,16 +51,10 @@ def spam(msg, count):
     print("To stop the program, move the curser to the upper left corner of the screen.")
     print("")
 
-    print("Starting in 5...")
-    time.sleep(1)
-    print("Starting in 4...")
-    time.sleep(1)
-    print("Starting in 3...")
-    time.sleep(1)
-    print("Starting in 2...")
-    time.sleep(1)
-    print("Starting in 1...")
-    time.sleep(1)
+    for i in range(1, 6):
+        print(f"Starting in {i}...")
+        time.sleep(1)
+
     print("Boom!")
 
     for _ in range(int(count)):
