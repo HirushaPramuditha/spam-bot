@@ -2,6 +2,9 @@ import pyautogui
 import time
 
 
+countdown = [5, 4, 3, 2, 1]
+
+
 class ReadFile:
     def __init__(self, file):
         self.file = file
@@ -24,8 +27,8 @@ class ReadFile:
             "To stop the program, move the curser to the upper left corner of the screen.")
         print("")
 
-        for i in range(1, 6):
-            print(f"Starting in {i}...")
+        for num in countdown:
+            print(f"Starting in {num}...")
             time.sleep(1)
 
         print("Boom!")
@@ -51,8 +54,8 @@ def spam(msg, count):
     print("To stop the program, move the curser to the upper left corner of the screen.")
     print("")
 
-    for i in range(1, 6):
-        print(f"Starting in {i}...")
+    for num in countdown:
+        print(f"Starting in {num}...")
         time.sleep(1)
 
     print("Boom!")
