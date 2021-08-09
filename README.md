@@ -1,7 +1,6 @@
 # Spam Bot
 
 ![PyPI](https://img.shields.io/pypi/v/spam-bot?color=blue)
-![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/PyPI/spam-bot)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/spam-bot)
 ![PyPI - License](https://img.shields.io/pypi/l/spam-bot)
 
